@@ -1,0 +1,46 @@
+img{
+    border-radius: 150px; 
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+/*Centrando el cuerpo*/
+body {
+text-align: center;
+align-items: center ;
+}
+p{
+    text-align: justify;
+}
+#agrupar {
+width: 1500px; /*Margen lados*/
+margin: 15px auto; /*Margen altos*/
+text-align: left;
+
+}
+
+#seccion {
+
+float: left;
+width: 660px;
+margin: 20px;
+}
+
+#columna {
+float: left;
+width: 220px;
+margin: 20px 0px;
+padding: 20px;
+background: #f5d4f0;
+}
+
+article {
+padding: 20px;
+margin-bottom: 15px;
+}
+
+figcaption {
+font: italic 14px verdana, sans-serif;
+}

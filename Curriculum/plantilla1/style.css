@@ -1,0 +1,122 @@
+.horizontal-container {
+    display: inline-block;
+    justify-content: space-between; /* Ajusta la distribución de los elementos */
+    align-items: center; /* Alinea los elementos verticalmente */
+    /* Espacio entre los elementos */
+}
+
+.item {
+
+  
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+    padding: 0;
+    color: #333; /* Color de texto general */
+    display: flex;
+    flex-direction: row; /* Disposición en fila */
+    background-color: #ddd3d3;
+}
+
+body, h1, h2, p, li, a {
+    font-size: 14px; /* Adjust this value to change the overall font size */
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Diseño */
+
+header {
+    background-color: #f18585;
+    padding: 30px;
+    margin: -20px;
+    text-align: center;
+    width: 350px; /* Ancho fijo para el header */
+    box-sizing: border-box; /* Para incluir el padding dentro del ancho */
+}
+
+.contacto {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto li {
+    margin: 10px 0;
+}
+
+.contacto a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 0 40px; /* Espacio entre el header y el main */
+}
+
+.seccion {
+    background-color: blue;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.experiencia, .estudios, .habilidades {
+    margin-bottom: 0; /* Eliminar margen inferior de la última sección */
+}
+
+/* Rejilla */
+
+.seccion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion li {
+    margin-bottom: 15px;
+}
+
+img{
+    border-radius: 150px; 
+}
+
+#imagen{
+    border-radius: 150px; 
+    border: 15px solid #b63333;
+}
+
+.fecha{
+    color: #696666;
+    font-weight: bold;
+    
+}
+
+#habilidades, #contacto{
+    list-style-type: none;
+}
+
+.header-estudios {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Margen inferior para separación */
+}
+
+.header-estudios img {
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+}

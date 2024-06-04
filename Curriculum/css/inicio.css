@@ -1,0 +1,13 @@
+
+    tr:hover {
+        td{
+            background-color: #DAF7A6;color: black;}
+            
+        }
+    th,td{ border-radius: 4px;}
+
+
+    section{
+
+        margin-top: 60px;
+    }
